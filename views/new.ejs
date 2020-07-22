@@ -1,0 +1,19 @@
+<%- include("./partials/header") %>
+
+    <div class="img-container" style="width: 100%;">
+        <p>add new doggo!</p>
+        <form action="/dogs" method="POST" style="margin-top: 20px;">
+            <div class="form-group" style="margin: 5px;">
+                <input class="form-control" type="text" name="name" placeholder="name" style="padding: 5px;">
+            </div>
+            <div class="form-group" style="margin: 5px;">
+                <input class="form-control" type="text" name="img" placeholder="img url" style="padding: 5px;">
+            </div>
+            <div class="form-group">
+                <button>Submit!</button>					
+            </div>
+        </form>
+    </div>
+
+
+<%- include("./partials/footer") %>

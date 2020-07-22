@@ -1,0 +1,17 @@
+<%- include("./partials/header") %>
+
+        <div class="img-container" style="overflow-y: scroll; height: 80%;">
+            <div>
+              <p>scroll down to see all dogs in our database! :)</p>
+
+              <% dogs.forEach(dog => { %>
+                <img src="<%= dog.url %>">
+                <div style="padding-bottom: 20px;">
+                  <button>Remove :(</button>
+                </div>
+              <% }); %>	
+            </div>
+        </div>
+
+
+<%- include("./partials/footer") %>
