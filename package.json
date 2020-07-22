@@ -15,5 +15,18 @@
     "jade": "~1.11.0",
     "morgan": "~1.9.1",
     "pug": "^3.0.0"
-  }
+  },
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pimsly/BFS3.git"
+  },
+  "author": "Pim Young",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pimsly/BFS3/issues"
+  },
+  "homepage": "https://github.com/pimsly/BFS3#readme",
+  "description": ""
 }
